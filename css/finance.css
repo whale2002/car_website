@@ -1,0 +1,58 @@
+.show{
+    margin-bottom: 50px;
+}
+.server{
+    padding-top: 50px;
+}
+.server strong{
+    font-size: 22px;
+    line-height: 40px;
+    
+}
+.server h4{
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 1px;
+}
+.server>p{
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+.plan{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #e2e2e2;
+}
+.plan a{
+    font-size: 17px;
+    margin-right: 350px;
+    font-weight: bold;
+}
+.item{
+    margin-right: 120px;
+}
+.server .box .item a{
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #ccc;
+    text-indent: 25px;
+}
+.server .box{
+    margin-top: 20px;
+    display: flex;
+}
+.server .img-box{
+    overflow: hidden;
+    width: 277px;
+    height: 171px;
+    transition: .5s;
+}
+.server img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}

@@ -1,0 +1,41 @@
+.show{
+    margin-bottom: 50px;
+}
+.server{
+    padding-top: 50px;
+}
+.server strong{
+    font-size: 22px;
+    line-height: 22px;
+    
+}
+.server>p{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 11px;
+}
+
+.server .box a{
+    display: block;
+    width: 383px;
+    height: 35px;
+    line-height: 40px;
+    background-color: #8E0721;
+    color: #fff;
+    text-indent: 25px;
+}
+.server .box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.server .img-box{
+    overflow: hidden;
+    width: 383px;
+    height: 172px;
+    transition: .5s;
+}
+.server img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
